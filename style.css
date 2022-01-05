@@ -1,0 +1,88 @@
+h1 {
+    width: 100%;
+    text-align: center;
+}
+.tabs-block-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+#tabs {
+    display: flex;
+}
+
+#tabs-content {
+    display: flex;
+}
+
+.tab-btn {
+    width: 100px;
+    height: 40px;
+    background: linear-gradient(215.32deg, #bc48d3 -1%, #700c9e 124%);
+    font-size: 20px;
+    border: 1px solid #700c9e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.content-tab-btn {
+    width: 100px;
+    height: 40px;
+    background: linear-gradient(215.32deg, #bc48d3 -1%, #700c9e 124%);
+    font-size: 20px;
+    border: 1px solid #700c9e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tab-btn.active {
+    background: blue;
+    color: #ffffff;
+    border: 1px solid black;
+}
+
+.content-tab-btn.active {
+    background: blue;
+    color: #ffffff;
+    border: 1px solid black;
+}
+
+#contents {
+    max-width: 300px;
+    width: 100%;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#contents-tab {
+    max-width: 300px;
+    width: 100%;
+    height: 107px;
+    border-radius: 5px;  
+}
+
+.content {
+    display: none;
+}
+
+.content-tab {
+    display: none;
+}
+
+.content.active {
+    display: block;
+}
+
+.content-tab.active {
+    display: block;
+}
